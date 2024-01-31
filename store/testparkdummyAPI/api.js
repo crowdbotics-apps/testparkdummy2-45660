@@ -14,21 +14,6 @@ function api_v1_login_create(payload) {
 function api_v1_signup_create(payload) {
   return testparkdummyAPI.post(`/api/v1/signup/`, payload)
 }
-function modules_docusign_auth_token_retrieve(payload) {
-  return testparkdummyAPI.get(`/modules/docusign/auth/token/`)
-}
-function modules_docusign_envelope_create_create(payload) {
-  return testparkdummyAPI.post(`/modules/docusign/envelope/create/`)
-}
-function modules_docusign_envelope_download_retrieve(payload) {
-  return testparkdummyAPI.get(`/modules/docusign/envelope/download/`)
-}
-function modules_docusign_envelope_retrieve_retrieve(payload) {
-  return testparkdummyAPI.get(`/modules/docusign/envelope/retrieve/`)
-}
-function modules_docusign_envelope_retrieve_all_retrieve(payload) {
-  return testparkdummyAPI.get(`/modules/docusign/envelope/retrieve-all/`)
-}
 function rest_auth_login_create(payload) {
   return testparkdummyAPI.post(`/rest-auth/login/`, payload)
 }
@@ -66,11 +51,6 @@ export const apiService = {
   api_docs_schema_retrieve,
   api_v1_login_create,
   api_v1_signup_create,
-  modules_docusign_auth_token_retrieve,
-  modules_docusign_envelope_create_create,
-  modules_docusign_envelope_download_retrieve,
-  modules_docusign_envelope_retrieve_retrieve,
-  modules_docusign_envelope_retrieve_all_retrieve,
   rest_auth_login_create,
   rest_auth_logout_create,
   rest_auth_password_change_create,
