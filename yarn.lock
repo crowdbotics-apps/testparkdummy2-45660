@@ -1486,10 +1486,10 @@
 "@modules/mapbox-maps@file:./modules/mapbox-maps":
   version "1.0.0"
 
-"@modules/maps@file:./modules/maps":
+"@modules/mapbox-maps@file:./modules/mapbox-maps/":
   version "1.0.0"
 
-"@modules/maps@file:./modules/maps/":
+"@modules/maps@file:./modules/maps":
   version "1.0.0"
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
